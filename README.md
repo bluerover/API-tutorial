@@ -1,4 +1,4 @@
-# BlueRover API documentation
+# BlueRover API Tutorial
 This is a tutorial for BlueRover API. This repo provides example code for the usage of the API.
 
 ## Getting Started
