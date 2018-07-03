@@ -1,0 +1,22 @@
+{
+  "name": "example-ms-api",
+  "version": "1.0.0",
+  "description": "Example code for blueRover API",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run server",
+    "server": "FORCE_COLOR=1 nodemon index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "lodash": "^4.17.10",
+    "requestretry": "^1.13.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "nodemon": "^1.17.5"
+  }
+}
