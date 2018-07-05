@@ -22,7 +22,7 @@ request.get(`https://api.rover.blue/api/v1/auth/devices/${deviceMac}`, auth);
 // request.get(`https://api.rover.blue/api/v1/auth/devices/${deviceId}/state/static`, auth);
 
 // GET dynamic data / state
-// request.get(`https://api.rover.blue/api/v1/auth/devices/${deviceId}/data/dynamic?startTimestamp=1530531515`, auth);
+// request.get(`https://api.rover.blue/api/v1/auth/devices/${deviceId}/data/dynamic?startTimestamp=1530631515&endTimestamp=1530640515`, auth);
 // request.set(`https://api.rover.blue/api/v1/auth/devices/${deviceId}/state/dynamic`, auth);
 
 // POST token
