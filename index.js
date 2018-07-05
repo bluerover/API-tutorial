@@ -13,6 +13,10 @@ const auth = 'Bearer f76176bfd974879c8e37fcc2e934637ebaeb450c7f771423d8c6cf5f5b4
 const deviceId = 4136;
 const deviceMac = '0123456789ABTEST';
 
+// POST token
+// Replace null with auth for auth routes
+// request.post('https://api.rover.blue/api/v1/unauth/login/token', null, {'secret': 'demoSecret'});
+
 // GET device
 request.get(`https://api.rover.blue/api/v1/auth/devices/${deviceMac}`, auth);
 // request.get(`https://api.rover.blue/api/v1/auth/devices/${deviceId}`, auth);
@@ -24,6 +28,3 @@ request.get(`https://api.rover.blue/api/v1/auth/devices/${deviceMac}`, auth);
 // GET dynamic data / state
 // request.get(`https://api.rover.blue/api/v1/auth/devices/${deviceId}/data/dynamic?startTimestamp=1530631515&endTimestamp=1530640515`, auth);
 // request.set(`https://api.rover.blue/api/v1/auth/devices/${deviceId}/state/dynamic`, auth);
-
-// POST token
-// request.post('https://api.rover.blue/api/v1/unauth/login/token', null, {'secret': 'demoSecret'});
