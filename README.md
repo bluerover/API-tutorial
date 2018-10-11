@@ -7,3 +7,8 @@ Please read documentation at [Google doc](https://docs.google.com/document/d/1pm
 ## Installation and starting the app
 1. `npm install`
 2. `npm start`
+
+## Useful tools
+- You can use the `cURL` command in the terminal to send the `GET`/ `POST` request with any given parameters.
+- `curl -X POST <URL-ROUTE> --header "Authorization: Bearer <TOKEN>"`
+- Another good tool is [POSTMAN](https://www.getpostman.com/)
